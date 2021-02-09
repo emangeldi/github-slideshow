@@ -2,7 +2,7 @@
 layout: presentation
 ---
 
-{% for post in site.posts reversed %}
+{% for post in site.posts reversed %} *italic*__bold__ _bold_ #heading#
 	{% include slide.html %}
 	<div class="page-break"></div>
 {% endfor %}
